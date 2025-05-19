@@ -1,0 +1,18 @@
+- npm create vite@latest
+- npm install
+
+
+CRIAÇÃO DE COMPONENTES 
+
+- Cria-se uma pasta components para melhor organização 
+Criação de um Header por exemplo
+   - Pasta Components 
+      - Pasta Header 
+         - Arquivo index.jsx (
+         function Header(){
+            return (
+                 <div>
+                   <h1>header works</h1>
+                </div>
+                 )}
+                 export default Header)

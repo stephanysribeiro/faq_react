@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    padding-top: 10%;
+    background-color: black;
+    color: white;
+    /* faz com que a largura da div ocupe toda a 
+    pagina, sobrepondo o tamanho pré colocado pelo bootstrap*/
+    max-width: none !important;
+    width: 100% !important;
+    padding-bottom: 4%;
+}
+
+.containerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.containerHeader p {
+    font-family: renaultRegular;
+    padding-top: 1%;
+}
+
+.containerHeader h1 {
+   font-size: 280%;
+}
+
+
+.secondTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2% 0% 0.5% 0%;
+}
+
+.secondTitle p {
+    font-family: renaultRegular;
+}
+
+.containerImgText h1 {
+    padding: 3% 0% 4%;
+    font-size: 60px;
+    text-align: center;
+}
+
+.containerImgImg{
+    padding-bottom: 3%;
+}
+
+.containerImgImg img{
+   width: 100%;
+}
+
+.box {
+    border: 1px solid black;
+    width: 100%;
+    margin: 3%;
+    padding-bottom: 3%;
+}
+
+.containerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 8% 0%;
+}
+
+.titleBox {
+    font-size: 18px;
+    font-size: 1.3vw;
+    text-align: start;
+    padding: 0% 0% 3% 8%
+}
+
+.arrowDiv {
+    text-align: right;
+    padding: 1%;
+}
+
+.arrowBox {
+    font-size: 24px;
+
+}
+
+
+.box {
+    position: relative;
+    border: 1px solid black;
+    width: 50%;
+    margin: 1%;
+    padding-bottom: 1%;
+    overflow: hidden;
+    /* Garante que o ripple não ultrapasse a caixa */
+}
+
+.rippleEffect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    /* Começa com largura zero */
+    height: 100%;
+    background-color: rgba(0, 0, 0);
+    /* Cor do preenchimento */
+    z-index: 1;
+    /* Mantém o ripple atrás */
+    transition: width 0.5s ease;
+    /* Controle da animação */
+}
+
+.box:hover .rippleEffect {
+    width: 100%;
+    /* Ao passar o mouse, a largura se expande para 100% */
+}
+
+.titleBox,
+.arrowBox {
+    position: relative;
+    z-index: 2;
+    /* Mantém o texto e o ícone acima do ripple */
+    color: inherit;
+    /* Herda a cor do hover definido */
+}
+
+.box:hover {
+    color: white;
+    /* Texto e ícone ficam brancos/amarelos */
+}
+
+.box:hover .titleBox {
+    color: white;
+    /* Texto fica branco */
+}
+
+.box:hover .arrowBox {
+    color: yellow;
+    /* Ícone fica amarelo */
+}
+
+.accordionHorseNet{
+    padding: 3% 3% 5%;
+    width: 100%;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion {
+    border: none; /* remove a borda da estrutura externa, se houver */
+  }
+  
+  .accordionItem {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important; /* remove a borda superior de cada item */
+    border-bottom: 1px solid black; /* mantém a borda inferior */
+}
+
+.accordionButton:not(.collapsed){
+    background-color: white !important;
+    color: black !important;
+}
+
+.card{
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.col4{
+    border-radius: 0 !important;
+}
+
+.cardTitle{
+    font-size: 190%;
+}
+
+.cardText{
+    font-family: renaultRegular ;
+}
+
+.cardSec{
+    border: none !important;
+    border-radius: 0 !important;
+    padding-top: 3%;
+}
+

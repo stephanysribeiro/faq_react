@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bodyFaq {
+    background-color: rgb(255, 255, 255);
+    margin-top: 10%;
+    color: black;
+} 
+
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.headerContainer h1{
+    font-size: 58px;
+}
+
+.headerContainer p{
+  font-family: renaultRegular;
+}
+
+
+.container{
+    padding-top: 5%;
+    width: 100%;
+    gap: 5%;
+}
+
+.containerSecond{
+    width: 100%;
+    gap: 5%;
+}
+
+
+.accordion{
+    text-align: center !important;
+    padding: 0% 5% 0%;
+}
+
+.accordionButton{
+    text-align: center !important;
+}
+
+.menuAccordion{
+    padding-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 4%;
+}
+
+.menuAccordion h4 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .menuAccordion h4::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background-color: #efdf00;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .menuAccordion h4:hover::after {
+    transform: scaleX(1);
+  }
+
+
+.accordion-button:not(.collapsed){
+    background-color: #ffffff !important;
+}
+  
+.acServiceNow, .acHorseNet{
+    padding: 3% 5% 2% 5%;
+    text-align: center;
+    
+}
+
+p{
+    text-align: start;
+}

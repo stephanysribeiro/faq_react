@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    padding-top: 10%;
+    background-color: black;
+    color: white;
+    /* faz com que a largura da div ocupe toda a 
+    pagina, sobrepondo o tamanho pré colocado pelo bootstrap*/
+    max-width: none !important;
+    width: 100% !important;
+    padding-bottom: 4%;
+}
+
+.containerHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.containerHeader h1{
+  font-size: 50px;
+}
+
+.containerHeader p{
+   font-family: renaultRegular;
+}
+
+p, h1 {
+    margin: 0;
+}
+
+
+.swiperContainer{
+    padding-top: 5%;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 5%; 
+}
+
+.swiperContainer p{
+    padding-bottom: 2%;
+}
+
+.swiperSlide {
+    width: auto;
+    height: auto;
+  }
+  
+  .mySwiper {
+    width: 100%;
+    padding-bottom: 40px; /* Space for pagination dots */
+  }
+  
+  /* Make sure navigation arrows are visible */
+  :global(.swiper-button-next),
+  :global(.swiper-button-prev) {
+    color: #000;
+}
+
+.swiperContainer p{
+    font-family: renaultRegular;
+}
+
+.swiperContainer h1{
+    font-size: 50px;
+}
+
+
+.cardImgTop{
+    border-radius: 0;
+}
+
+.cardBody{
+    border-radius: 0;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.cardText{
+    font-family: renaultRegular;
+}
+
+
+.card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    background-color: #000000;
+    border-radius: 0;
+    border: none
+}
+
+.btn:hover{
+    background-color: #efdf00;
+}
+
+.swiper-button-next{
+    background-color: aquamarine;
+}
