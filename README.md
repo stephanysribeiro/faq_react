@@ -1,12 +1,32 @@
-# React + Vite
+# FAQ (Perguntas Frequentes)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Página de Perguntas Frequentes FAQ desenvolvido com React. 
 
-Currently, two official plugins are available:
+## Sobre o Projeto 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi desenvolvido durante o estágio curricular na fábrica Horse Aveiro, no âmbito do curso de Informática e Comunicação Organizacional da Universidade de Aveiro. Tem como objetivo centralizar informações úteis de forma a esclarecer dúvidas relacionadas às novas ferramentas e processos tecnológicos implementados pela àrea de IS/IT, promovendo maior autonomia entre os colaboradores e reduzindo a dependência do suporte técnico para questões recorrentes. 
 
-## Expanding the ESLint configuration
+## Funcionalidades 
+- Exibição de perguntas e respostas organizadas por temas
+- Página especifica para apoio a migração Horse.net
+- Página para vídeos tutoriais
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologias Utilizadas
+- React, React Icons, React Router DOM
+- JavaScript/TypeScript
+- HTML5 e CSS3
+- Bootstrap/React Boostrap
+- Vite
+- 
+
+  # Instalação e Uso
+
+  ## Pré-requisitos
+  - Node.js (versão 14 ou superior)
+  - npm ou yarn
+  - Bootstrap
+ 
+  ## Instalação
+  
+  git clone https://github.com/stephanysribeiro/faq_react.git
+  cd faq_react
